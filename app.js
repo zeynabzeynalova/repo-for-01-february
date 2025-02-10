@@ -14,8 +14,19 @@ document.getElementById('netice').innerHTML="neticemiz: "+toplam_sonrasi;
 }
 
 // function for subtract-
+function subtract(){
+    cixma_sonrasi=birinci_eded-ikinci_eded;
+    document.getElementById('netice').innerHTML="neticemiz:  "+cixma_sonrasi
+}
 
 // function for devide/
+function devide(){
+    bolme_sonrasi= birinci_eded/ikinci_eded;
+    document.getElementById('netice').innerHTML="neticemiz: "+bolme_sonrasi
+}
 
 // function for multiple *
- 
+function multiple(){
+    vurma_sonrasi=birinci_eded*ikinci_eded;
+    document.getElementById('netice').innerHTML="neticemiz: "+vurma_sonrasi
+}
