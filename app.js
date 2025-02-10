@@ -10,7 +10,7 @@ let bolme_sonrasi=0;
 // function for sum+
 function sum(){
 toplam_sonrasi=birinci_eded+ikinci_eded;
-console.log(toplam_sonrasi)
+document.getElementById('netice').innerHTML="neticemiz: "+toplam_sonrasi;
 }
 
 // function for subtract-
