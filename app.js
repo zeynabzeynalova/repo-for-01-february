@@ -28,5 +28,6 @@ function devide(){
 // function for multiple *
 function multiple(){
     vurma_sonrasi=birinci_eded*ikinci_eded;
-    document.getElementById('netice').innerHTML="neticemiz: "+vurma_sonrasi
+    document.
+    getElementById('netice').innerHTML="neticemiz: "+vurma_sonrasi
 }

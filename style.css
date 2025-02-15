@@ -9,6 +9,8 @@ p {
     margin-inline-end: 0px;
     unicode-bidi: isolate;
 }
-button{
-    display:
+.buttons{
+    background-color: aqua;
+    color: chartreuse;
+    border-radius: 15px;
 }
