@@ -10,14 +10,7 @@ p {
     unicode-bidi: isolate;
 }
 
-*{
-    h1,p{
-        color: #4CAF50;
-        background-color: antiquewhite;
-        border-radius: 15%;
 
-    }
-}
     
 button{
     padding: 20px 40px;
@@ -33,4 +26,14 @@ button{
 }
 h1{
     color: antiquewhite;
+}
+em {
+    color: blue; /* Mavi rəng */
+    font-style: normal; /* İtalik deyil, normal şrift */
+    font-weight: bold; /* Qalın şrift */
+}
+button:hover {
+    background-color: #4CAF50; 
+    transform: scale(1.1); 
+    transition: all 0.3s ease;
 }

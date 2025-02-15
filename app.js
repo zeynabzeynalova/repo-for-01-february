@@ -31,3 +31,10 @@ function multiple(){
     document.
     getElementById('netice').innerHTML="neticemiz: "+vurma_sonrasi
 }
+function resetCalculator() {
+    // Hesablama nəticələrini sıfırla
+    toplam_sonrasi = 0;
+    cixma_sonrasi = 0;
+    vurma_sonrasi = 0;
+    bolme_sonrasi = 0;
+    
