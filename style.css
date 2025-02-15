@@ -9,8 +9,18 @@ p {
     margin-inline-end: 0px;
     unicode-bidi: isolate;
 }
-.buttons{
-    background-color: aqua;
-    color: chartreuse;
-    border-radius: 15px;
-}
+
+.btn {
+    background-color: #4CAF50; /* Yaşıl rəng */
+    color: white; /* Yazının rəngi */
+    font-size: 16px; /* Yazı ölçüsü */
+    padding: 10px 20px; /* Yastıqlıqlar */
+    border: none; /* Çərçivə yoxdur */
+    border-radius: 8px; /* Küncləri yuvarlaqlaşdır */
+    transition: background-color 0.3s ease; /* Üzərinə gələndə rəngin dəyişməsi */
+  }
+  .btn:hover {
+    background-color: #45a049; /* Tünd yaşıl */
+  }
+  
+  
