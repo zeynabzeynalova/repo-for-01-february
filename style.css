@@ -15,7 +15,7 @@ p {
         color: #4CAF50;
         background-color: antiquewhite;
         border-radius: 15%;
-        
+
     }
 }
     
@@ -30,4 +30,7 @@ button{
     transition: all 0.3s ease; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     outline: none; 
+}
+h1{
+    color: antiquewhite;
 }
