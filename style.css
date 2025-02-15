@@ -27,11 +27,7 @@ button{
 h1{
     color: antiquewhite;
 }
-em {
-    color: blue; /* Mavi rəng */
-    font-style: normal; /* İtalik deyil, normal şrift */
-    font-weight: bold; /* Qalın şrift */
-}
+
 button:hover {
     background-color: #4CAF50; 
     transform: scale(1.1); 
