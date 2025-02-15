@@ -10,41 +10,24 @@ p {
     unicode-bidi: isolate;
 }
 
-.btn {
-    background-color: #4CAF50; /* Yaşıl rəng */
-    color: white; /* Yazının rəngi */
-    font-size: 16px; /* Yazı ölçüsü */
-    padding: 10px 20px; /* Yastıqlıqlar */
-    border: none; /* Çərçivə yoxdur */
-    border-radius: 8px; /* Küncləri yuvarlaqlaşdır */
-    transition: background-color 0.3s ease; /* Üzərinə gələndə rəngin dəyişməsi */
-    cursor: pointer; /* Siçan işarəsinin göstəricisi */
-    font-weight: bold; /* Yazını qalınlaşdır */
-}
-
-/* Hover effekti: üzərinə gələndə rəng dəyişir */
-.btn:hover {
-    background-color: #45a049; /* Tünd yaşıl */
-}
-
-/* Focus effekti: düyməyə basıldığında */
-.btn:focus {
-    outline: none; /* Fokusda olan düymənin çərçivəsini sil */
-    box-shadow: 0 0 8px rgba(72, 161, 72, 0.5); /* Fokusda gözəl kölgə effekti */
-}
-  /* Ümumi düymə üslubu */
-button {
-    background-color: #4CAF50; /* Yaşıl rəng */
-    color: white; /* Yazının rəngi */
-    font-size: 16px; /* Yazı ölçüsü */
-    padding: 10px 20px; /* Yastıqlıqlar */
-    border: none; /* Çərçivə yoxdur */
-    border-radius: 8px; /* Küncləri yuvarlaqlaşdır */
-    transition: background-color 0.3s ease; /* Üzərinə gələndə rəngin dəyişməsi */
-    cursor: pointer; /* Siçan işarəsinin göstəricisi */
-    font-weight: bold; /* Yazını qalınlaşdır */
-}
-
-button:hover {
-    background-color: #45a049; /* Tünd yaşıl */
-}
+*{
+    margin: 0;
+    background-color: silver;
+    }
+    h1,p{
+    border: solid red 5px;
+    padding: 35px;
+    border-radius: 35%;
+    margin: 50px;
+    color: azure;
+    background: black;
+    }
+    
+    button{
+        border: solid red 5px;
+        padding: 35px;
+        border-radius: 35%;
+        margin: 50px;
+        color: azure;
+        background: black;  
+    }
