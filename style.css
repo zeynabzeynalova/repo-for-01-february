@@ -11,17 +11,13 @@ p {
 }
 
 *{
-    margin: 0;
-    background-color: silver;
-    }
     h1,p{
-    border: solid chocolate;
-    padding: 35px;
-    border-radius: 15%;
-    margin: 50px;
-    color: azure;
-    background-color: burlywood;
+        color: #4CAF50;
+        background-color: antiquewhite;
+        border-radius: 15%;
+        
     }
+}
     
 button{
     padding: 20px 40px;
